@@ -1,0 +1,22 @@
+{
+  "name": "mobee-proxy",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.1",
+    "@types/http-proxy-agent": "^4.0.1",
+    "@types/js-yaml": "^4.0.9",
+    "prettier": "^3.5.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "http-proxy-agent": "^7.0.2",
+    "http-proxy-middleware": "^3.0.5",
+    "js-yaml": "^4.1.0"
+  }
+}
